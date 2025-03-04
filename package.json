@@ -1,0 +1,17 @@
+{
+  "name": "syncthing-electron-app",
+  "version": "1.0.0",
+  "description": "A simple app to open Syncthing panel standalone",
+  "license": "ISC",
+  "author": "Marcos Vinicius",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "debug": "electron --trace-warnings .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^34.3.0"
+  }
+}
